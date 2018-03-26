@@ -1,9 +1,5 @@
 # Make an ATM Class
 
-```bash
-$ git clone git@github.com:ga-wdi-exercises/es6-classes-practice.git
-```
-
 For this exercise you will be creating an ATM class.
 
 It will have the following properties...
