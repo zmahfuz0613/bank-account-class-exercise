@@ -1,6 +1,6 @@
-# Make an ATM Class
+# Make a BankAccount Class
 
-For this exercise you will be creating an ATM class.
+For this exercise you will be creating a BankAccount class.
 
 It will have the following properties...
 * `type` (e.g., "checking"), which should be determined by some input
@@ -11,11 +11,11 @@ It should have the following methods...
 * `deposit`, which should increase the amount of money by some input
 * `showBalance`, which should print the amount of money in the bank to the console.
 
-The `Atm` class has a `transactionHistory` property which keeps track of the withdrawals and deposits made to the account.
+The `BankAccount` class has a `transactionHistory` property which keeps track of the withdrawals and deposits made to the account.
 * Make sure to indicate whether the transaction increased or decreased the amount of money in the bank.
 
 #### Bonus
 
-Give the `Atm` class a `backupAccount` property that can, optionally, contain a reference to another instance of the class, determined by some input
-* Whenever an ATM's balance goes below zero, it will remove money from the instance stored in `backupAccount` so that its balance goes back to zero.
+Give the `BankAccount` class a `backupAccount` property that can, optionally, contain a reference to another instance of the class, determined by some input
+* Whenever a BankAccount's balance goes below zero, it will remove money from the instance stored in `backupAccount` so that its balance goes back to zero.
 * This should trigger a withdrawal in the back up account equal to the amount of money that was withdrawn from the original account.
